@@ -1,0 +1,19 @@
+THIS IS SAMPLE DJANGO PRACTICE PAGE
+<H1>THI_RU</H1>
+
+<a href="{% url 'home' %}"> START Again </a>
+
+<h1>WORD COUNT</h1>
+<form action ="{% url 'count' %}">
+  <textarea name="fulltext" rows="8" cols="80"></textarea>
+   <br/>
+   <input type="submit" name="click here to count the number of words" value="Count">
+
+
+
+</form>
+<form action ="{% url 'about' %}">
+<input type="submit" name="aboutme" value="aboutme">
+</form>
+
+{{hithere}}
